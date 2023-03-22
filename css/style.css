@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    background-color: #00056a;
+}
+
+.container-wrapper h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.container{
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 7px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7af2;
+}
+
+.bg-blue{
+    background-color: #4646e8;
+}
+
+.bg-green{
+    background-color: #47ff47;
+}
+
+.bg-yellow{
+    background-color: #ffff47;
+}
